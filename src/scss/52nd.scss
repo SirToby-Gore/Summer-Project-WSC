@@ -1,0 +1,19 @@
+@import '_base.scss';
+$colour: #221b17;
+
+body {
+    background-color: $colour;
+    
+    img {
+        margin: 0px;   
+        width: 35vw;
+        height: 35vw;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .song {
+        @include song(#7a5c47);
+    }
+}
