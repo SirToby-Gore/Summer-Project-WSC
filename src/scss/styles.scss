@@ -37,11 +37,11 @@
         display: none;
     }
 
-    &:not(:hover) > .main > a {
+    &:not(:hover) > .main > button {
         transition: $trns-close-setting;
         display: none;
     }
-    &:hover > .main > a{
+    &:hover > .main > button {
         transition: $trns-open-setting;
         transition-delay: $open_delay;
     }
@@ -136,22 +136,20 @@
             }
         }
 
-        a {
-            button {
-                &:hover {
-                    background-color: transparent;
-                }
-
-                background-color: $album_colour_1;
-                font-family: $pri-fnt;
-                font-size: large;
-                font-weight: bold;
-                color: $pri-txt;
-                padding: 10px;
-                border-width: 3px;
-                border-color: $album_colour_1;
-                border-radius: 10px;
+        button {
+            &:hover {
+                background-color: transparent;
             }
+
+            background-color: $album_colour_1;
+            font-family: $pri-fnt;
+            font-size: large;
+            font-weight: bold;
+            color: $pri-txt;
+            padding: 10px;
+            border-width: 3px;
+            border-color: $album_colour_1;
+            border-radius: 10px;
             position: absolute;
             margin: 10px;
             right: 0;

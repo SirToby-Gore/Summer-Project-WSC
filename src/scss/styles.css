@@ -42,11 +42,11 @@ body #cold-spring-habour:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #cold-spring-habour:not(:hover) > .main > a {
+body #cold-spring-habour:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #cold-spring-habour:hover > .main > a {
+body #cold-spring-habour:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -117,13 +117,7 @@ body #cold-spring-habour .main p .song {
   font-size: medium;
   border: none;
 }
-body #cold-spring-habour .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #cold-spring-habour .main a button {
+body #cold-spring-habour .main button {
   background-color: #4a4a4a;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -133,8 +127,12 @@ body #cold-spring-habour .main a button {
   border-width: 3px;
   border-color: #4a4a4a;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #cold-spring-habour .main a button:hover {
+body #cold-spring-habour .main button:hover {
   background-color: transparent;
 }
 body #piano-man {
@@ -178,11 +176,11 @@ body #piano-man:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #piano-man:not(:hover) > .main > a {
+body #piano-man:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #piano-man:hover > .main > a {
+body #piano-man:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -253,13 +251,7 @@ body #piano-man .main p .song {
   font-size: medium;
   border: none;
 }
-body #piano-man .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #piano-man .main a button {
+body #piano-man .main button {
   background-color: #5b5b5b;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -269,8 +261,12 @@ body #piano-man .main a button {
   border-width: 3px;
   border-color: #5b5b5b;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #piano-man .main a button:hover {
+body #piano-man .main button:hover {
   background-color: transparent;
 }
 body #streetlife-serenade {
@@ -314,11 +310,11 @@ body #streetlife-serenade:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #streetlife-serenade:not(:hover) > .main > a {
+body #streetlife-serenade:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #streetlife-serenade:hover > .main > a {
+body #streetlife-serenade:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -389,13 +385,7 @@ body #streetlife-serenade .main p .song {
   font-size: medium;
   border: none;
 }
-body #streetlife-serenade .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #streetlife-serenade .main a button {
+body #streetlife-serenade .main button {
   background-color: #500a0d;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -405,8 +395,12 @@ body #streetlife-serenade .main a button {
   border-width: 3px;
   border-color: #500a0d;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #streetlife-serenade .main a button:hover {
+body #streetlife-serenade .main button:hover {
   background-color: transparent;
 }
 body #o52nd-street {
@@ -450,11 +444,11 @@ body #o52nd-street:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #o52nd-street:not(:hover) > .main > a {
+body #o52nd-street:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #o52nd-street:hover > .main > a {
+body #o52nd-street:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -525,13 +519,7 @@ body #o52nd-street .main p .song {
   font-size: medium;
   border: none;
 }
-body #o52nd-street .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #o52nd-street .main a button {
+body #o52nd-street .main button {
   background-color: #944713;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -541,8 +529,12 @@ body #o52nd-street .main a button {
   border-width: 3px;
   border-color: #944713;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #o52nd-street .main a button:hover {
+body #o52nd-street .main button:hover {
   background-color: transparent;
 }
 body #the-stranger {
@@ -586,11 +578,11 @@ body #the-stranger:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #the-stranger:not(:hover) > .main > a {
+body #the-stranger:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #the-stranger:hover > .main > a {
+body #the-stranger:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -661,13 +653,7 @@ body #the-stranger .main p .song {
   font-size: medium;
   border: none;
 }
-body #the-stranger .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #the-stranger .main a button {
+body #the-stranger .main button {
   background-color: #4a3d3d;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -677,8 +663,12 @@ body #the-stranger .main a button {
   border-width: 3px;
   border-color: #4a3d3d;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #the-stranger .main a button:hover {
+body #the-stranger .main button:hover {
   background-color: transparent;
 }
 body #glass-houses {
@@ -722,11 +712,11 @@ body #glass-houses:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #glass-houses:not(:hover) > .main > a {
+body #glass-houses:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #glass-houses:hover > .main > a {
+body #glass-houses:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -797,13 +787,7 @@ body #glass-houses .main p .song {
   font-size: medium;
   border: none;
 }
-body #glass-houses .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #glass-houses .main a button {
+body #glass-houses .main button {
   background-color: #00a9e6;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -813,8 +797,12 @@ body #glass-houses .main a button {
   border-width: 3px;
   border-color: #00a9e6;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #glass-houses .main a button:hover {
+body #glass-houses .main button:hover {
   background-color: transparent;
 }
 body #the-nylon-curtain {
@@ -858,11 +846,11 @@ body #the-nylon-curtain:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #the-nylon-curtain:not(:hover) > .main > a {
+body #the-nylon-curtain:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #the-nylon-curtain:hover > .main > a {
+body #the-nylon-curtain:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -933,13 +921,7 @@ body #the-nylon-curtain .main p .song {
   font-size: medium;
   border: none;
 }
-body #the-nylon-curtain .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #the-nylon-curtain .main a button {
+body #the-nylon-curtain .main button {
   background-color: #ffb665;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -949,8 +931,12 @@ body #the-nylon-curtain .main a button {
   border-width: 3px;
   border-color: #ffb665;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #the-nylon-curtain .main a button:hover {
+body #the-nylon-curtain .main button:hover {
   background-color: transparent;
 }
 body #an-innosent-man {
@@ -994,11 +980,11 @@ body #an-innosent-man:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #an-innosent-man:not(:hover) > .main > a {
+body #an-innosent-man:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #an-innosent-man:hover > .main > a {
+body #an-innosent-man:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -1069,13 +1055,7 @@ body #an-innosent-man .main p .song {
   font-size: medium;
   border: none;
 }
-body #an-innosent-man .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #an-innosent-man .main a button {
+body #an-innosent-man .main button {
   background-color: #d6a33c;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -1085,8 +1065,12 @@ body #an-innosent-man .main a button {
   border-width: 3px;
   border-color: #d6a33c;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #an-innosent-man .main a button:hover {
+body #an-innosent-man .main button:hover {
   background-color: transparent;
 }
 body #the-bridge {
@@ -1130,11 +1114,11 @@ body #the-bridge:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #the-bridge:not(:hover) > .main > a {
+body #the-bridge:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #the-bridge:hover > .main > a {
+body #the-bridge:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -1205,13 +1189,7 @@ body #the-bridge .main p .song {
   font-size: medium;
   border: none;
 }
-body #the-bridge .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #the-bridge .main a button {
+body #the-bridge .main button {
   background-color: #00578e;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -1221,8 +1199,12 @@ body #the-bridge .main a button {
   border-width: 3px;
   border-color: #00578e;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #the-bridge .main a button:hover {
+body #the-bridge .main button:hover {
   background-color: transparent;
 }
 body #storm-front {
@@ -1266,11 +1248,11 @@ body #storm-front:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #storm-front:not(:hover) > .main > a {
+body #storm-front:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #storm-front:hover > .main > a {
+body #storm-front:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -1341,13 +1323,7 @@ body #storm-front .main p .song {
   font-size: medium;
   border: none;
 }
-body #storm-front .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #storm-front .main a button {
+body #storm-front .main button {
   background-color: #c80000;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -1357,8 +1333,12 @@ body #storm-front .main a button {
   border-width: 3px;
   border-color: #c80000;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #storm-front .main a button:hover {
+body #storm-front .main button:hover {
   background-color: transparent;
 }
 body #river-of-dreams {
@@ -1402,11 +1382,11 @@ body #river-of-dreams:hover > .main > h1 {
   transition-delay: 0.5s;
   display: none;
 }
-body #river-of-dreams:not(:hover) > .main > a {
+body #river-of-dreams:not(:hover) > .main > button {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-body #river-of-dreams:hover > .main > a {
+body #river-of-dreams:hover > .main > button {
   transition: all ease-in-out 0.8s;
   transition-delay: 0.5s;
 }
@@ -1477,13 +1457,7 @@ body #river-of-dreams .main p .song {
   font-size: medium;
   border: none;
 }
-body #river-of-dreams .main a {
-  position: absolute;
-  margin: 10px;
-  right: 0;
-  bottom: 0;
-}
-body #river-of-dreams .main a button {
+body #river-of-dreams .main button {
   background-color: #5ea5ba;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
@@ -1493,7 +1467,11 @@ body #river-of-dreams .main a button {
   border-width: 3px;
   border-color: #5ea5ba;
   border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+  bottom: 0;
 }
-body #river-of-dreams .main a button:hover {
+body #river-of-dreams .main button:hover {
   background-color: transparent;
 }/*# sourceMappingURL=styles.css.map */
