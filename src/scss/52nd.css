@@ -8,6 +8,19 @@ body img {
   position: fixed;
   top: 0;
   right: 0;
+  transition: all ease-in-out 0s;
+  transform-origin: center;
+}
+body img:hover {
+  animation: spin 60s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 body .song {
   max-width: max(60vw, 60vh);
